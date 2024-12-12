@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Css/Footer.css'
 import '../Css/NavBar.css'
+import { NavLink } from 'react-router-dom'
 const Footer = () => {
     return (
         <div>
@@ -10,13 +11,13 @@ const Footer = () => {
                     <div class="social-icons">
                         <ul className='nav d-flex justify-content-center '>
                             <li className='nav-link '>
-                                <a href='/about' className='nav-link text-danger'>About</a>
+                                <NavLink className='nav-link text-danger' to={"/about"}>About</NavLink>
                             </li>
                             <li className='nav-link text-danger'>
-                            <a href='/contact' className='nav-link text-danger'>Conatct</a>
+                            <NavLink className='nav-link text-danger' to={"/contact"}>Contact</NavLink>
                             </li>
                             <li className='nav-link text-danger'>
-                            <a href='/about' className='nav-link text-danger'>Archivements</a>
+                            <NavLink className='nav-link text-danger' to={"/archivements"}>Archivements</NavLink>
                             </li>
                         </ul>
                         <a href="/home" class="text-white me-3 "><i class="fab fa-facebook hov"></i></a>
