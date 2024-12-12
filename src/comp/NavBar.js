@@ -1,13 +1,12 @@
 import React from 'react';
 import '../Css/NavBar.css'
-import { NavLink, useNavigate } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 const NavBar = () => {
-    const nav = useNavigate();
   return (
     <div className="navbar-container">
       <nav className="navbar navbar-expand-lg navbar-dark bg-darks" style={{backgroundColor:"black"}}>
         <div className="container-fluid">
-          <a className="navbar-brand">
+          <a className="navbar-brand" href='/home'>
             MONSTER<span style={{color:"#57000e"}}>FIT</span>
           </a>
           <button
@@ -33,7 +32,7 @@ const NavBar = () => {
               <NavLink className="nav-link" to={"/contact"}>Contact</NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Contact</a>
+                <a className="nav-link" href="/archivements">Archivements</a>
               </li>
             </ul>
           </div>

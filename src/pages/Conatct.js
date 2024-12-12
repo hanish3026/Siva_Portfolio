@@ -46,7 +46,7 @@ const Contact = () => {
                     <p>Strive for <span className='text-danger'>progress</span>, not<span className='text-danger'> perfection</span></p>
                 </div>
                 <div>
-                    <img src={Assets.wide} className='image'></img>
+                    <img src={Assets.wide} className='image' alt='noimg'></img>
                 </div>
                 {/*  */}
                 <div className="row py-5 mb-5 text-light">

@@ -13,7 +13,7 @@ const AboutUs = () => {
                 <div className='row '>
                     <div className='col-lg-4 mb-5'>
                         <div class="card border-0 hover-grow">
-                            <img class="card-img-top" src={Assets.FunctionalTraining} alt="Card image cap" style={{ height: "500px", objectFit:"cover"}} />
+                            <img class="card-img-top" src={Assets.FunctionalTraining} alt="Card  cap" style={{ height: "500px", objectFit:"cover"}} />
                             <div class="card-body design">
                                 <h4 class="card-title">FUNCTIONAL TRAINING</h4>
                                 <p class="card-text">
@@ -25,7 +25,7 @@ const AboutUs = () => {
                     </div>
                     <div className='col-lg-4 mb-5'>
                         <div class="card border-0 hover-grow" >
-                            <img class="card-img-top" src={Assets.WeightLoss} alt="Card image cap" style={{ height: "500px" , objectFit:"cover"}} />
+                            <img class="card-img-top" src={Assets.WeightLoss} alt="Card cap" style={{ height: "500px" , objectFit:"cover"}} />
                             <div class="card-body design">
                                 <h4 class="card-title">WEIGHT LOSS</h4>
                                 <p class="card-text">
@@ -38,7 +38,7 @@ const AboutUs = () => {
                     </div>
                     <div className='col-lg-4 mb-5'>
                         <div class="card border-0 hover-grow">
-                            <img class="card-img-top" src={Assets.Msl} alt="Card image cap" style={{ height: "500px" , objectFit:"cover"}} />
+                            <img class="card-img-top" src={Assets.Msl} alt="Card  cap" style={{ height: "500px" , objectFit:"cover"}} />
                             <div class="card-body design">
                                 <h4 class="card-title">WEIGHT GAIN</h4>
                                 <p class="card-text">
@@ -51,7 +51,7 @@ const AboutUs = () => {
                     </div>
                     <div className='col-lg-4 mb-5'>
                         <div class="card border-0 hover-grow">
-                            <img class="card-img-top" src={Assets.postuer} alt="Card image cap" style={{ height: "500px" , objectFit:"cover"}} />
+                            <img class="card-img-top" src={Assets.postuer} alt="Card  cap" style={{ height: "500px" , objectFit:"cover"}} />
                             <div class="card-body design">
                                 <h4 class="card-title">POSTURE CORRECTION</h4>
                                 <p class="card-text">
@@ -64,7 +64,7 @@ const AboutUs = () => {
                     </div>
                     <div className='col-lg-4 mb-5'>
                         <div class="card border-0 hover-grow">
-                            <img class="card-img-top" src={Assets.diet} alt="Card image cap" style={{ height: "500px" , objectFit:"cover"}} />
+                            <img class="card-img-top" src={Assets.diet} alt="Card  cap" style={{ height: "500px" , objectFit:"cover"}} />
                             <div class="card-body design">
                                 <h4 class="card-title">DIET CONSULTING</h4>
                                 <p class="card-text">
@@ -77,7 +77,7 @@ const AboutUs = () => {
                     </div>
                     <div className='col-lg-4 mb-5'>
                         <div class="card border-0 hover-grow">
-                            <img class="card-img-top" src={Assets.balance} alt="Card image cap" style={{ height: "500px"  ,objectFit:"cover"}} />
+                            <img class="card-img-top" src={Assets.balance} alt="Card cap" style={{ height: "500px"  ,objectFit:"cover"}} />
                             <div class="card-body design">
                                 <h4 class="card-title">BALANCE TRAINING</h4>
                                 <p class="card-text">
@@ -93,7 +93,7 @@ const AboutUs = () => {
             </div>
             <div className="row">
                 <div className="col-lg-6 col-md-12">
-                    <img src={Assets.siva} style={{ height: "600px", width: "100%", objectFit: "cover" }} className="mt-lg-5" alt="Image" />
+                    <img src={Assets.siva} style={{ height: "600px", width: "100%", objectFit: "cover" }} className="mt-lg-5" alt="Images" />
                 </div>
                 <div className="col-lg-6 col-md-12">
                     <p className="intro text-center">ABOUT ME</p>

@@ -1,3 +1,6 @@
 .bg-darks{
     background-color: #070707;
   }
+  .hov:hover{
+    color: red;
+  }
