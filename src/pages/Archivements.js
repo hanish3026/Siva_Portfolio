@@ -2,8 +2,8 @@ import React from 'react'
 
 const Archivements = () => {
   return (
-    <div>
-      
+    <div className='text'>
+      Under Progress...
     </div>
   )
 }

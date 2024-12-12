@@ -21,7 +21,7 @@ const Footer = () => {
                         </ul>
                         <a href="/home" class="text-white me-3 "><i class="fab fa-facebook hov"></i></a>
                         <a href="/home" class="text-white me-3 "><i class="fab fa-twitter hov"></i></a>
-                        <a href="/home" class="text-white me-3 "><i class="fab fa-instagram hov"></i></a>
+                        <a href="https://www.instagram.com/coach_monster_siva?igsh=emw0dHRqdWo2eG42" class="text-white me-3 "><i class="fab fa-instagram hov"></i></a>
                     </div>
                 </div>
             </footer>

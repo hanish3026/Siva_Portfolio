@@ -6,7 +6,7 @@ const NavBar = () => {
     <div className="navbar-container">
       <nav className="navbar navbar-expand-lg navbar-dark bg-darks" style={{backgroundColor:"black"}}>
         <div className="container-fluid">
-          <a className="navbar-brand" href='/home'>
+          <a className="navbar-brand" href='/'>
             MONSTER<span style={{color:"#57000e"}}>FIT</span>
           </a>
           <button

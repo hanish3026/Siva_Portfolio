@@ -17,8 +17,7 @@ const AboutUs = () => {
                             <div class="card-body design">
                                 <h4 class="card-title">FUNCTIONAL TRAINING</h4>
                                 <p class="card-text">
-                                    Some quick example text to build on the card title
-                                    and make up the bulk of the card's content.
+                                Functional training helps you build strength and agility for everyday tasks. Stay consistent, focus on proper form, and remember: your progress benefits your lifestyle.
                                 </p>
                             </div>
                         </div>
@@ -29,8 +28,7 @@ const AboutUs = () => {
                             <div class="card-body design">
                                 <h4 class="card-title">WEIGHT LOSS</h4>
                                 <p class="card-text">
-                                    Some quick example text to build on the card title
-                                    and make up the bulk of the card's content.
+                                Weight loss is a journey of discipline and patience. Focus on balanced nutrition, regular exercise, and sustainable habits. Celebrate small victories along the way!
                                 </p>
                             </div>
                         </div>
@@ -42,8 +40,8 @@ const AboutUs = () => {
                             <div class="card-body design">
                                 <h4 class="card-title">WEIGHT GAIN</h4>
                                 <p class="card-text">
-                                    Some quick example text to build on the card title
-                                    and make up the bulk of the card's content.
+                                    
+Weight gain requires consistency and smart choices. Prioritize calorie-dense, nutritious foods, strength training, and proper rest. Stay patient and track your progress to meet your goals!
                                 </p>
                             </div>
                         </div>
@@ -55,8 +53,7 @@ const AboutUs = () => {
                             <div class="card-body design">
                                 <h4 class="card-title">POSTURE CORRECTION</h4>
                                 <p class="card-text">
-                                    Some quick example text to build on the card title
-                                    and make up the bulk of the card's content.
+                                Posture correction focuses on improving alignment to reduce strain, enhance mobility, and prevent discomfort. Commit to exercises, awareness, and adjustments for lasting results!
                                 </p>
                             </div>
                         </div>
@@ -68,8 +65,7 @@ const AboutUs = () => {
                             <div class="card-body design">
                                 <h4 class="card-title">DIET CONSULTING</h4>
                                 <p class="card-text">
-                                    Some quick example text to build on the card title
-                                    and make up the bulk of the card's content.
+                                Diet consulting provides personalized nutrition guidance to support your health goals. Stay committed to balanced eating habits and expert advice for sustainable well-being!
                                 </p>
                             </div>
                         </div>
@@ -81,8 +77,7 @@ const AboutUs = () => {
                             <div class="card-body design">
                                 <h4 class="card-title">BALANCE TRAINING</h4>
                                 <p class="card-text">
-                                    Some quick example text to build on the card title
-                                    and make up the bulk of the card's content.
+                                Balance training improves stability, coordination, and body control. It’s essential for enhancing physical performance, preventing falls, and maintaining overall functional strength and agility.
                                 </p>
                             </div>
                         </div>
@@ -98,10 +93,9 @@ const AboutUs = () => {
                 <div className="col-lg-6 col-md-12">
                     <p className="intro text-center">ABOUT ME</p>
                     <p className="para">
-                        You’ll look at graphs and charts in Task One, how to approach the task and the language needed for a successful answer. You’ll examine Task Two questions and learn how to plan, write, and check academic essays.
-                        Task One, how to approach the task and the language needed for a successful answer. You’ll examine Task Two questions and learn how to plan, write, and check academic essays.
-                        You’ll look at graphs and charts in Task One, how to approach the task and the language needed for a successful answer.
-                    </p>
+                     
+
+                    I am a skilled gym trainer with over 9 years of experience and a proven track record of successful transformations. I specialize in personalized training programs for weight loss, muscle gain, posture correction, and overall fitness. My approach combines functional training with diet consulting, ensuring safe and effective progress. I am passionate about empowering clients to reach their full potential, providing motivation and expert guidance every step of the way. I help individuals improve their strength, health, and confidence, making each fitness journey both impactful and rewarding.                    </p>
                 </div>
                 <div>
                 </div>
