@@ -1,0 +1,126 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .app {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    /* z-index: -1;  */
+    opacity: 0.5; /* Set opacity of video */
+  }
+  
+  /* Content overlay */
+  .content {
+    position: relative;
+    z-index: 1; /* Ensure content appears above the video */
+    backdrop-filter: blur(5px); /* Apply blur effect to background */
+    padding: 20px; /* Add padding */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: 8px; /* Optional: round corners */
+  }
+  
+  /* Text styles */
+  .text-font {
+    color: #d90429; /* Red color */
+    font-size: 40px; /* Font size */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  /* Larger font for heading */
+  .hone {
+    color: #d90429;
+    font-size: 160px; /* Large font size for heading */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  /* Button styles */
+  .button-Style {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    color: #d90429;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .button-Style:hover {
+    background-color: #d90429;
+    color: white;
+  }
+  
+  /* Mobile-first responsiveness */
+  
+  /* Mobile Devices (Less than 600px) */
+  @media (max-width: 599px) {
+    .hone {
+      font-size: 100px; /* Reduce font size for small screens */
+    }
+  
+    .text-font {
+      font-size: 20px; /* Reduce font size for small screens */
+    }
+  
+    .button-Style {
+      width: 120px; /* Adjust button width */
+      height: 40px; /* Adjust button height */
+      font-size: 14px; /* Adjust font size */
+    }
+  }
+  
+  /* Tablets and small desktops (600px - 991px) */
+  @media (min-width: 600px) and (max-width: 991px) {
+    .hone {
+      font-size: 120px; /* Medium size for heading */
+    }
+  
+    .text-font {
+      font-size: 30px; /* Medium size for text */
+    }
+  
+    .button-Style {
+      width: 130px; /* Adjust button width */
+      height: 45px; /* Adjust button height */
+      font-size: 15px; /* Adjust font size */
+    }
+  }
+  
+  /* Desktops and larger screens (992px and above) */
+  @media (min-width: 992px) {
+    .hone {
+      font-size: 160px; /* Default large font size for heading */
+    }
+  
+    .text-font {
+      font-size: 40px; /* Default font size for text */
+    }
+  
+    .button-Style {
+      width: 150px; /* Adjust button width */
+      height: 50px; /* Adjust button height */
+      font-size: 16px; /* Default font size */
+    }
+  }
+  
