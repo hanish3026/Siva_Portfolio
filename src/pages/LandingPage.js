@@ -13,10 +13,8 @@ const LandingPage = () => {
         <div>
             <NavBar />
             <div className='app'>
-                <video className="background-video" autoPlay loop muted>
-                    <source src={Assets.background} type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>
+                <img className="background-video"src={Assets.bg} alt='Loading'>
+                </img>
                 <div>
                     <p className='text-font'>WORK HARDER,GET STRONGER</p>
                     <div>

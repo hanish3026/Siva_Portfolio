@@ -9,7 +9,8 @@ const Contact = () => {
     const [form, setForm] = useState({
         name: '',
         email: '',
-        message: ''
+        message: '',
+        number:''
     });
 
     const handleChange = (e) => {
@@ -32,7 +33,8 @@ const Contact = () => {
         setForm({
             name: '',
             email: '',
-            message: ''
+            message: '',
+            number:''
         });
     };
 
@@ -107,6 +109,19 @@ const Contact = () => {
                                                 value={form.email}
                                                 onChange={handleChange}
                                                 placeholder="Enter your email"
+                                                required
+                                            />
+                                        </div>
+                                        <div className="form-group mb-3">
+                                            <label htmlFor="Number" className="form-label">Number</label>
+                                            <input
+                                                type="number"
+                                                className="form-control"
+                                                id="number"
+                                                name="number"
+                                                value={form.number}
+                                                onChange={handleChange}
+                                                placeholder="Enter your number"
                                                 required
                                             />
                                         </div>
