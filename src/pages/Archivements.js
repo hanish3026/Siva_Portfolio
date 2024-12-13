@@ -47,10 +47,12 @@ const Archivements = () => {
               </p>
             </div>
           </div>
-          <div className="text-white">MY CLINTS</div>
+          <div className="text-white">MY CLIENTS</div>
           <div className="mt-lg-5">
             <div className='row align-items-center'>
               {[
+                Assets.trans7,
+                Assets.trans3,
                 Assets.trans1,
                 Assets.trans2,
                 Assets.trans6,
@@ -59,7 +61,7 @@ const Archivements = () => {
               ].map((image, index) => (
                 <div key={index} className='col-lg-4 col-md-6 mb-5'>
                   <div className="card border-0 hover-grow">
-                    <img className="card-img-top" src={image} alt={`Card ${index + 1}`} />
+                    <img className="card-img-top p-1" src={image} alt={`Card ${index + 1}`} style={{objectFit:"cover"}} />
                   </div>
                 </div>
               ))}

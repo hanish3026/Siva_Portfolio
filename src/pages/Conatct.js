@@ -10,7 +10,7 @@ const Contact = () => {
         name: '',
         email: '',
         message: '',
-        number:''
+        number: ''
     });
 
     const handleChange = (e) => {
@@ -23,20 +23,24 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+    
         emailjs.sendForm('service_7s38hia', 'template_sf35qth', formRef.current, 'Xhzuk-_NMje0G1_nA')
             .then((result) => {
                 console.log(result.text);
+                alert('Message sent successfully!');
             }, (error) => {
                 console.log(error.text);
+                alert('Failed to send the message. Please try again later.');
             });
-
+    
         setForm({
             name: '',
             email: '',
             message: '',
-            number:''
+            number: ''
         });
     };
+    
 
     return (
         <>
@@ -81,13 +85,13 @@ const Contact = () => {
                     <div className="col-lg-6 col-md-12">
                         <div className="container">
                             <div className="card w-100 shadow-lg border-0">
-                                <div className="card-header text-white text-center" style={{backgroundColor:"#57000e"}}>
+                                <div className="card-header text-white text-center" style={{ backgroundColor: "#57000e" }}>
                                     <h3>Contact Us</h3>
                                 </div>
                                 <div className="card-body">
                                     <form ref={formRef} onSubmit={handleSubmit}>
                                         <div className="form-group mb-3">
-                                            <label htmlFor="name" className="form-label">Name</label>
+                                            <label htmlFor="name" className="form-label text-dark">Name</label>
                                             <input
                                                 type="text"
                                                 className="form-control"
@@ -100,7 +104,7 @@ const Contact = () => {
                                             />
                                         </div>
                                         <div className="form-group mb-3">
-                                            <label htmlFor="email" className="form-label">Email</label>
+                                            <label htmlFor="email" className="form-label text-dark">Email</label>
                                             <input
                                                 type="email"
                                                 className="form-control"
@@ -113,7 +117,7 @@ const Contact = () => {
                                             />
                                         </div>
                                         <div className="form-group mb-3">
-                                            <label htmlFor="Number" className="form-label">Number</label>
+                                            <label htmlFor="Number" className="form-label text-dark">Number</label>
                                             <input
                                                 type="number"
                                                 className="form-control"
@@ -126,7 +130,7 @@ const Contact = () => {
                                             />
                                         </div>
                                         <div className="form-group mb-3">
-                                            <label htmlFor="message" className="form-label">Message</label>
+                                            <label htmlFor="message" className="form-label text-dark">Message</label>
                                             <textarea
                                                 className="form-control"
                                                 id="message"

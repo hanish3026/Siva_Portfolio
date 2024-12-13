@@ -16,14 +16,16 @@ import sivaimg_5 from './sivaimg_5.jpg'
 import sivaimg_6 from './sivaimg_6.jpg'
 import sivaimg_7 from './sivaimg_7.jpg'
 import sivaimg_8 from './sivaimg_8.jpg'
-import trans1 from './trans1.PNG'
-import trans2 from './trans2 .PNG'
-import trans3 from './trans3.JPG'
-import trans4 from './trans4.PNG'
+import trans1 from './trans1.jpg'
+import trans2 from './trans2.jpg'
+import trans3 from './trans3.jpg'
+import trans4 from './trans4.jpg'
 import trans5 from './trans5.jpeg'
 import trans6 from './trans6.jpg'
 import join from './join.jpg'
 import bg from './bg.jpg'
+import trans7 from './trans7.jpg'
+
 const Assets={
     background:background,
     FunctionalTraining:FunctionalTraining,
@@ -51,5 +53,7 @@ const Assets={
     trans6:trans6,
     join:join,
     bg:bg,
+    trans7:trans7,
+
 }
 export default Assets;
