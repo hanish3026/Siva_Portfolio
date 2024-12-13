@@ -57,6 +57,11 @@ const Archivements = () => {
                 Assets.trans6,
                 Assets.trans4,
                 Assets.trans5,
+                Assets.trans8,
+                Assets.trans9,
+                Assets.trans12,
+                Assets.trans11,
+                Assets.trans10,
               ].map((image, index) => (
                 <div key={index} className='col-lg-4 col-md-6 mb-5'>
                   <div className="card border-0 hover-grow">

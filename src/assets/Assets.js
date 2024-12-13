@@ -24,7 +24,11 @@ import trans6 from './trans6.jpg'
 import join from './join.jpg'
 import bg from './bg.jpg'
 import trans7 from './trans7.jpg'
-
+import trans8 from './trans8.jpg'
+import trans9 from './trans9.jpg'
+import trans10 from './trans10.jpg'
+import trans11 from './trans11.jpg'
+import trans12 from './trans12.jpg'
 const Assets={
     background:background,
     FunctionalTraining:FunctionalTraining,
@@ -52,6 +56,10 @@ const Assets={
     join:join,
     bg:bg,
     trans7:trans7,
-
+    trans8:trans8,
+    trans9:trans9,
+    trans10:trans10,
+    trans11:trans11,
+    trans12:trans12
 }
 export default Assets;
