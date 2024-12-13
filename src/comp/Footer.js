@@ -17,7 +17,7 @@ const Footer = () => {
                             <NavLink className='nav-link text-danger' to={"/contact"}>Contact</NavLink>
                             </li>
                             <li className='nav-link text-danger'>
-                            <NavLink className='nav-link text-danger' to={"/archivements"}>Archivements</NavLink>
+                            <NavLink className='nav-link text-danger' to={"/archivements"}>Achievements</NavLink>
                             </li>
                         </ul>
                         <a href="https://www.facebook.com/share/19p124UeJ9/?mibextid=LQQJ4d" class="text-white me-3 "><i class="fab fa-facebook hov"></i></a>
