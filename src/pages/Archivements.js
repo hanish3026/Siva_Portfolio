@@ -52,7 +52,6 @@ const Archivements = () => {
             <div className='row align-items-center'>
               {[
                 Assets.trans7,
-                Assets.trans3,
                 Assets.trans1,
                 Assets.trans2,
                 Assets.trans6,

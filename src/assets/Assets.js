@@ -18,7 +18,6 @@ import sivaimg_7 from './sivaimg_7.jpg'
 import sivaimg_8 from './sivaimg_8.jpg'
 import trans1 from './trans1.jpg'
 import trans2 from './trans2.jpg'
-import trans3 from './trans3.jpg'
 import trans4 from './trans4.jpg'
 import trans5 from './trans5.jpeg'
 import trans6 from './trans6.jpg'
@@ -47,7 +46,6 @@ const Assets={
     sivaimg_8:sivaimg_8,
     trans1:trans1,
     trans2:trans2,
-    trans3:trans3,
     trans4:trans4,
     trans5:trans5,
     trans6:trans6,
