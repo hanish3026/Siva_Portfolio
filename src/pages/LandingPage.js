@@ -1,8 +1,6 @@
 import React from 'react'
-import NavBar from '../comp/NavBar'
 import Assets from '../assets/Assets'
 import '../Css/LandingPage.css'
-import Footer from '../comp/Footer'
 import { useNavigate } from 'react-router-dom'
 const LandingPage = () => {
     const nav = useNavigate()
@@ -11,7 +9,6 @@ const LandingPage = () => {
     }
     return (
         <div>
-            <NavBar />
             <div className='app'>
                 <img className="background-video"src={Assets.bg} alt='Loading'>
                 </img>
@@ -23,7 +20,6 @@ const LandingPage = () => {
                 <button className='button-Style' onClick={handleButton}>Join <i class="fa-sharp fa-solid fa-dumbbell"></i></button>
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }

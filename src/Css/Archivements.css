@@ -1,3 +1,27 @@
+/* Add this to your Archivements.css or global CSS file */
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.slider-img {
+  opacity: 0;
+  transition: opacity 1s ease-in-out; /* Smooth fade effect */
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+img:nth-child(1) {
+  opacity: 1;
+}
+
+img:nth-child(2) {
+  opacity: 0;
+}
+
 /* Ensures the image fills the container's width while maintaining aspect ratio */
 .img-fluid {
     width: 100%;        /* Makes image responsive, filling container width */
@@ -75,3 +99,4 @@
     color: green;
     cursor: pointer;
   }
+  

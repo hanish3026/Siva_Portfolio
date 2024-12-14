@@ -1,12 +1,9 @@
 import React from 'react'
 import '../Css/AboutUs.css'
 import Assets from '../assets/Assets'
-import Footer from '../comp/Footer'
-import NavBar from '../comp/NavBar'
 const AboutUs = () => {
     return (
         <div>
-            <NavBar />
             <div className='container mb-5'>
                 <div>
                     <p className='intro text-center'>WHAT I OFFER </p>
@@ -98,7 +95,6 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }

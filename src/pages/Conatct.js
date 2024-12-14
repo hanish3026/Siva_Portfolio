@@ -1,7 +1,5 @@
 import React, { useState, useRef } from 'react';
 import emailjs from 'emailjs-com';
-import NavBar from '../comp/NavBar';
-import Footer from '../comp/Footer';
 import Assets from '../assets/Assets';
 import '../Css/Contact.css'
 const Contact = () => {
@@ -45,7 +43,6 @@ const Contact = () => {
     return (
         <>
             <div className='layout'>
-                <NavBar />
                 <div className='overWords'>
                     <p>Hi I'm <span className='text-danger'>SIVA</span></p>
                     <p>GYM TRAINER</p>
@@ -153,9 +150,6 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-
-                {/*  */}
-                <Footer />
             </div>
         </>
     );

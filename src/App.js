@@ -1,3 +1,5 @@
+import Footer from "./comp/Footer";
+import NavBar from "./comp/NavBar";
 import AboutUs from "./pages/AboutUs";
 import Archivements from "./pages/Archivements";
 import Contact from "./pages/Conatct";
@@ -7,12 +9,14 @@ function App() {
   return (
     <>
       <BrowserRouter>
+      <NavBar/>
         <Routes>
           <Route path="/" element={<LandingPage />}/>
           <Route path="/about" element={<AboutUs/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/archivements" element={<Archivements/>}/>
         </Routes>
+      <Footer/>
       </BrowserRouter>
     </>
   );
